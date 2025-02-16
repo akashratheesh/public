@@ -18,7 +18,7 @@
       <collision name='base_link_collision'>
         <geometry>
           <mesh>
-            <uri>model://acds_quad_base/meshes/CAD/base_link.stl</uri>
+            <uri>model://base_link.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -26,7 +26,7 @@
       <visual name='base_link_visual'>
         <geometry>
           <mesh>
-            <uri>model://acds_quad_base/meshes/CAD/base_link.stl</uri>
+            <uri>model://base_link.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -130,7 +130,7 @@
       <collision name='legs_collision'>
         <geometry>
           <mesh>
-            <uri>model://acds_quad_base/meshes/CAD/legs.stl</uri>
+            <uri>model://legs.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -138,7 +138,7 @@
       <visual name='legs_visual'>
         <geometry>
           <mesh>
-            <uri>model://acds_quad_base/meshes/CAD/legs.stl</uri>
+            <uri>model://legs.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -168,7 +168,7 @@
       <collision name='raspi_btm_collision'>
         <geometry>
           <mesh>
-            <uri>model://acds_quad_base/meshes/CAD/raspi_btm.stl</uri>
+            <uri>model://raspi_btm.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -176,7 +176,7 @@
       <visual name='raspi_btm_visual'>
         <geometry>
           <mesh>
-            <uri>model://acds_quad_base/meshes/CAD/raspi_btm.stl</uri>
+            <uri>model://raspi_btm.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -206,7 +206,7 @@
       <collision name='raspi_top_collision'>
         <geometry>
           <mesh>
-            <uri>model://acds_quad_base/meshes/CAD/raspi_top.stl</uri>
+            <uri>model://raspi_top.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -214,7 +214,7 @@
       <visual name='raspi_top_visual'>
         <geometry>
           <mesh>
-            <uri>model://acds_quad_base/meshes/CAD/raspi_top.stl</uri>
+            <uri>model://raspi_top.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -245,7 +245,7 @@
       <visual name='rotor_0_visual'>
         <geometry>
           <mesh>
-            <uri>model://acds_quad_base/meshes/CAD/Propeller_CCW.stl</uri>
+            <uri>model://Propeller_CCW.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -259,7 +259,7 @@
       <collision name='rotor_0_collision'>
         <geometry>
           <mesh>
-            <uri>model://acds_quad_base/meshes/CAD/Propeller_CW.stl</uri>
+            <uri>model://Propeller_CW.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -299,7 +299,7 @@
       <visual name='rotor_1_visual'>
         <geometry>
           <mesh>
-            <uri>model://acds_quad_base/meshes/CAD/Propeller_CCW.stl</uri>
+            <uri>model://Propeller_CCW.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -313,7 +313,7 @@
       <collision name='rotor_1_collision'>
         <geometry>
           <mesh>
-            <uri>model://acds_quad_base/meshes/CAD/Propeller_CW.stl</uri>
+            <uri>model://Propeller_CW.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -353,7 +353,7 @@
       <visual name='rotor_2_visual'>
         <geometry>
           <mesh>
-            <uri>model://acds_quad_base/meshes/CAD/Propeller_CCW.stl</uri>
+            <uri>model://Propeller_CCW.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -367,7 +367,7 @@
       <collision name='rotor_2_collision'>
         <geometry>
           <mesh>
-            <uri>model://acds_quad_base/meshes/CAD/Propeller_CW.stl</uri>
+            <uri>model://Propeller_CW.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -407,7 +407,7 @@
       <visual name='rotor_3_visual'>
         <geometry>
           <mesh>
-            <uri>model://acds_quad_base/meshes/CAD/Propeller_CCW.stl</uri>
+            <uri>model://Propeller_CCW.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -421,7 +421,7 @@
       <collision name='rotor_3_collision'>
         <geometry>
           <mesh>
-            <uri>model://acds_quad_base/meshes/CAD/Propeller_CW.stl</uri>
+            <uri>model://Propeller_CW.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
