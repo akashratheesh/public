@@ -1,5 +1,4 @@
-<sdf version='1.11'>
-  <model name='acds_quad_base'>
+<robot name='acds_quad_base'>
     <link name='base_link'>
       <self_collide>false</self_collide>
       <pose>0.00097812079826465497 -0.00021356049216531237 0.010217855411063051 0 0 0</pose>
@@ -40,5 +39,4 @@
       
     </link>
 
-  </model>
-</sdf>
+  </robot>
