@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <robot name='acds_quad_base'>
     <link name='base_link'>
       <self_collide>false</self_collide>
@@ -38,5 +39,4 @@
       </visual>
       
     </link>
-
-  </robot>
+</robot>
