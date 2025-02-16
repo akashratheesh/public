@@ -1,42 +1,21 @@
 <?xml version="1.0" ?>
 <robot name='acds_quad_base'>
     <link name='base_link'>
-      <self_collide>false</self_collide>
-      <pose>0.00097812079826465497 -0.00021356049216531237 0.010217855411063051 0 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
-        <mass>0.64777735261177605</mass>
-        <inertia>
-          <ixx>0.0023033483674425102</ixx>
-          <ixy>-5.8146395058328102e-06</ixy>
-          <ixz>1.6252626996464845e-05</ixz>
-          <iyy>0.0020551678163506174</iyy>
-          <iyz>2.7527345086166749e-06</iyz>
-          <izz>0.0042247994567047491</izz>
-        </inertia>
+        <mass value="0.6477"/>
       </inertial>
-      <collision name='base_link_collision'>
+      <collision>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
         <geometry>
-          <mesh>
-            <uri>model://base_link.stl</uri>
-            <scale>0.001 0.001 0.001</scale>
-          </mesh>
+          <mesh filename="base_link.stl" scale="0.001 0.001 0.001"/>
         </geometry>
       </collision>
       <visual name='base_link_visual'>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
         <geometry>
-          <mesh>
-            <uri>model://base_link.stl</uri>
-            <scale>0.001 0.001 0.001</scale>
-          </mesh>
+          <mesh filename="base_link.stl" scale="0.001 0.001 0.001"/>
         </geometry>
-        <material>
-          <ambient>0.0199999996 0.0199999996 0.0199999996 1</ambient>
-          <diffuse>0.0500000007 0.0500000007 0.0500000007 1</diffuse>
-          <specular>0.100000001 0.100000001 0.100000001 1</specular>
-          <emissive>0 0 0 1</emissive>
-        </material>
       </visual>
-      
     </link>
 </robot>
