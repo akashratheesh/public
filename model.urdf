@@ -2,7 +2,7 @@
 <robot name='acds_quad_base'>
     <link name='base_link'>
       <inertial>
-        <pose>0 0 0 0 0 0</pose>
+        <origin rpy="0 0 0" xyz="0.0 0.00 0.01"/>
         <mass value="0.6477"/>
         <inertia ixx="0.00014397373856783245" ixy="2.5547641730238984e-07" ixz="0.000177" iyy="0.00053378448985660573" iyz="-1.993352" izz="0.000487"/>
       </inertial>
