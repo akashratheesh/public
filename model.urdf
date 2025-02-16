@@ -1,17 +1,40 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <robot name='acds_quad_base'>
-    <link name='base_link'>
-      <collision>
-        <origin rpy="0 0 0" xyz="0 0 0"/>
-        <geometry>
-          <mesh filename="base_link.stl" scale="0.001 0.001 0.001"/>
-        </geometry>
-      </collision>
-      <visual name='base_link_visual'>
-        <origin rpy="-1.5707963267948966 0 0" xyz="0 0 0"/>
-        <geometry>
-          <mesh filename="base_link.stl" scale="0.001 0.001 0.001"/>
-        </geometry>
-      </visual>
-    </link>
+  <link name='base_link'>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="base_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name='base_link_visual'>
+      <origin rpy="-1.5707963267948966 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="base_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="legs">
+    <collision>
+      <origin rpy="0 0 0"
+        xyz="-2.4036259595073315e-18  -4.448289317246827e-08 -0.013522611625440432" />
+      <geometry>
+        <mesh filename="legs.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name='base_link_visual'>
+      <origin rpy="0 0 0"
+        xyz="-2.4036259595073315e-18  -4.448289317246827e-08 -0.013522611625440432" />
+      <geometry>
+        <mesh filename="legs.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <joint name="joint_legs" type="fixed">
+    <parent>base_link</parent>
+    <child>legs</child>
+    <origin rpy="0 0.2618 -1.5707963267948966" xyz="0.07111352813714546 0.10450989979429313 0.016522611625440435"/>
+    <parent link="base_link"/>
+    <child link="legs"/>
+  </joint>
 </robot>
